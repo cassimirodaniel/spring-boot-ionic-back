@@ -40,7 +40,7 @@ public class Produto implements Serializable {
 	public Produto() {
 	}
 
-	public Produto(String nome, double preco) {
+	public Produto(Integer id, String nome, double preco) {
 		super();
 		this.nome = nome;
 		this.preco = preco;
